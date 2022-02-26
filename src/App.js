@@ -6,6 +6,8 @@ import './App.css';
 
 import SearchBar from './components/layouts/SearchBar';
 import Logs from './components/logs/Logs';
+import Button from './components/layouts/Button';
+import AddLogModal from './components/logs/AddLogModal';
 
 const App = () => {
   useEffect(() => {
@@ -16,6 +18,8 @@ const App = () => {
     <>
       <SearchBar />
       <Logs />
+      <Button />
+      <AddLogModal/>
     </>
   );
 }
